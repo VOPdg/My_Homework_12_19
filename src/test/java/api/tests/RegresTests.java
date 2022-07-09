@@ -1,13 +1,11 @@
-package api.Lombok;
+package api.tests;
 
 import api.models.MainData;
 import api.models.UserData;
 import org.junit.jupiter.api.Test;
 
-import static api.Lombok.Specs.*;
+import static api.tests.Specs.*;
 import static io.restassured.RestAssured.given;
-import static io.restassured.http.ContentType.JSON;
-import static org.hamcrest.core.Is.is;
 import static org.junit.jupiter.api.Assertions.assertEquals;
 
 public class RegresTests {

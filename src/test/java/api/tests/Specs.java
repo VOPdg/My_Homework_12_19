@@ -1,4 +1,4 @@
-package api.Lombok;
+package api.tests;
 
 import io.restassured.builder.ResponseSpecBuilder;
 import io.restassured.http.ContentType;
@@ -6,7 +6,6 @@ import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
 
 import static io.restassured.RestAssured.with;
-import static org.hamcrest.core.Is.is;
 import static org.hamcrest.core.StringContains.containsString;
 
 public class Specs {
